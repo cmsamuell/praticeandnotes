@@ -1,0 +1,159 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifSSS;
+    font-size: 1rem;
+    background-image: url(/images/1589198297flowing-lines-grey-freesvg.org.svg); 
+    background-size: cover;
+}
+
+body {
+    width: 37rem;
+    margin: 1rem auto;
+    background-color: rgba(196, 192, 192, 0.329);
+    padding: 0 1.2rem 1.2rem 1.2rem;
+    box-shadow: 1px 5px 10px rgb(80, 110, 110);
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 3.7rem;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1.2rem 0;
+    color: rgba(0, 0, 0);
+    text-shadow: 0 0 5px rgba(255, 255, 255);
+}
+
+h1:hover {
+    transition:  all 1s ease;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgb(184, 28, 7);
+    cursor: default;
+}
+
+.timerDescription {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    margin-left: 2rem;
+    margin-right: 3rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgba(54, 25, 25, 0.719);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.timer {
+    font-size: 1.9rem;
+    text-align: center;
+    padding: 0.9rem 0;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1rem;
+    word-spacing: 2.2rem;
+    line-height: 3rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 25rem;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0.06rem;
+}
+
+P {
+    box-shadow: 10px 10px 10px rgb(2, 46, 59);
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 1px;
+    border-end-end-radius: 2px;
+}
+
+.first {
+    margin-top: -3rem;
+}
+
+.line-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-2 {
+    display: flex;
+    flex-direction: row;
+} 
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+    background: linear-gradient(rgba(167, 173, 177, 0.733), rgb(255, 255, 255), rgba(217, 233, 235, 0.5));
+    margin: 0.5rem auto;
+    border: 3px solid rgba(253, 253, 253, 0.644);
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0px rgba(0, 10, 10, 0.815);
+    letter-spacing: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 51, 51);
+}
+
+.cards:hover {
+    transition:  all 1s ease;
+    background: linear-gradient(rgba(33, 35, 36, 0.5), rgb(255, 255, 255), rgba(61, 64, 66, 0.733));
+    border-color: rgba(168, 233, 238, 0.322);
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+.projects-cards {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    align-items: center;
+    width: 80%;
+    border-radius: 0.5rem;
+    background-color: rgba(204, 204, 204, 0.747);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.315);
+    cursor: default;
+}
+
+.projects-cards:hover {
+    transition:  all 1s ease;
+    box-shadow: 1px 1px 10px rgb(7, 7, 7);
+    cursor: default;
+}
+
+.profile-img {
+    background-color: rgba(247, 247, 247, 0.692);
+    border-radius: 0.3rem;
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.description-date {
+    margin: 0.2rem auto;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.description-name-project {
+    margin: 0.2rem auto;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.description-link-project {
+    font-size: 0.8rem;
+    font-style: italic;
+}
