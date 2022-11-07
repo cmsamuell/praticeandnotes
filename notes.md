@@ -1,4 +1,5 @@
 # A fazer:
 
-* refazer projetos do freeCodeCamp e colocar no ar nos cards corretos.
-* Adicionar aos cards corretos os sites que já estão no ar
+* Organizar aparencia do site
+* Adicionar barra de nav ao topo da página
+* Pesquisar sites para basear
